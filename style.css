@@ -1,0 +1,465 @@
+*{
+	padding: 0;/*внутренний отступ*/
+	margin:0;/*внешний отступ*/
+	border:0;/*рамки*/
+}
+*,*:before,*:after{
+-moz-box-sizing:border-box;
+box-sizing:border-box;}
+:focus;:active{outline:none}
+a:focus,a:active{outline:none;}
+nav,footer,header,aside{display: block;}
+html,body{
+height: 100%;
+width: 100%;
+font-size: 14px;
+-ms-text-size-adjust:100%;
+-moz-text-size-adjust:100%;
+-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family: inherit;}
+input::-ms-clear{display:none;}
+button{cursor:pointer;}
+a, a:visited{text-decoration:none;}
+a:hover{text-decoration:none;}
+ul li{list-style:none;}
+img{vertical-align:top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:400;}
+/*-----------------------------------------*/
+
+
+.wrapper{
+	width: 100%;
+	opacity: 1;
+	z-index:0;
+
+}
+.container{
+max-width: 1180px;
+margin: 2px auto;
+display:flex;
+flex-direction: column;
+justify-content: space-between;
+
+}
+
+
+
+
+/*шапка контейнер*/
+.header{
+	background-color: white;
+	opacity: 0,5;
+	font-family: 'Exo 2', sans-serif;
+	font-size: 20px;
+	border-radius: 0px 0px 20px 20px
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	
+}
+/*верхняя строка заголовка и картинной заливки*/
+.headrow{
+	display: flex;
+	justify-content: center;
+	border-bottom: 3px solid #9fb809
+}
+.backgroundmain{
+	background: url('../image/unnamed.jpg') 0 0 / auto 100% repeat;
+	width: 50%;
+	font-size: 0;
+}
+/*Заголовок шапки*/
+.headname{
+	font-family: 'Special Elite', cursive;
+	color: white;
+	font-size: 25px;
+	font-weight: 700;
+	word-spacing: 5px;
+	padding: 5px;
+	letter-spacing: 4px;
+	justify-content: flex-start;
+	display: flex;
+	border-bottom: 5px solid #;
+	width: 50%;
+	background: #5286c6;
+
+}
+.headlist{
+	display: flex;
+	justify-content: space-around;
+	font-size: 23px;
+	margin:  ;
+	background: ;
+
+}
+.headitem1{
+	
+	border-radius: 0px 0px 20px 20px;
+	width: 25%;
+	text-align: center;
+	padding: 5px 20px;
+	background:  #8a7cff
+
+}
+.headitem2{
+	
+	border-radius: 0px 0px 20px 20px;
+	width: 25%;
+	text-align: center;
+	padding: 5px 20px;
+	background:  #8a7cff
+
+}
+
+.headitem3{
+	
+	border-radius: 0px 0px 20px 20px;
+	width: 25%;
+	text-align: center;
+	padding: 5px 20px;
+	background:  #8a7cff
+}
+.headitem4{
+	background:  #8a7cff;
+	border-radius: 0px 0px 20px 20px;
+	width: 25%;
+	text-align: center;
+	padding: 5px 20px;
+
+}
+/*Подвал*/
+.footer{
+background-image: linear-gradient(to bottom, rgba(86, 164, 227, 0.9), rgba(87, 158, 215, 0.91), rgba(88, 152, 203, 0.92), rgba(89, 146, 192, 0.93), rgba(90, 140, 180, 0.94), rgba(91, 134, 168, 0.95), rgba(92, 127, 156, 0.95), rgba(93, 121, 144, 0.96), rgba(94, 115, 132, 0.97), rgba(95, 109, 121, 0.98), rgba(96, 103, 109, 0.99), rgb(97, 97, 97));
+	display: flex;
+	justify-content: flex-end;
+	border-radius: 20px 20px 0px 0px;
+	
+}
+/*адрес*/
+.footblockad{
+	
+	display: flex;
+	font-family: 'Exo 2', sans-serif;
+	font-size: 15px;
+	flex-direction: stretch;
+	width: 50%;
+	-ms-align-items: baseline;
+	align-items: center;
+	padding: 5px 10px ;
+	color: white;
+	word-spacing: 5px;
+	line-height: 20px;
+	flex: 0 1 auto;
+}
+.Addres{
+	width: 50%;
+
+	
+}
+.numbers{
+	width: 50%;
+}
+/*соцсети*/
+.socialsource{
+	font-family: 'Special Elite', cursive;
+	font-size: 20px;
+	
+	color: white;
+	display: flex;
+	justify-content: center;
+	width: 50%;
+	flex:0 1 auto;
+	align-items: baseline;
+}
+/*вк*/
+.vk{
+	
+	width: 33.333%;
+	display:flex;
+	flex-direction: column-reverse;
+	align-items: center;
+}
+.namevk{ 
+margin: 10px 5px 5px 10px;
+ }
+/*логовк*/
+.logovk{ width: 40px;
+
+}
+.logovkblock{
+border: 2px solid white;
+	border-radius: 30px
+}
+
+/*инста*/
+.insta{
+	
+	width: 33.333%;
+	display:flex;
+	flex-direction: column-reverse;
+	align-items:center;
+}
+.nameinsta{
+	margin: 10px 5px 5px 10px;
+}
+/*логоинста*/
+.logoinsta{
+	width:49px;
+	border: 2px solid white;
+	border-radius: 30px;
+	display: inline-block;
+	
+}
+}
+.logoinstablock{
+	
+
+}
+
+
+
+
+
+/*фейсбук*/
+.facebook{
+	width: 33.333%;
+	display:flex;
+	flex-direction: column-reverse;
+	align-items: center;
+	padding: 10px;
+	flex: 0 1 auto;
+}
+.namefb{
+	padding: 10px;  
+}
+/*картинка фейсбук*/
+.lofofbblock{
+	width:55px;
+	
+
+}
+.logofb {
+	width: 40px;
+	margin: 4px 5px 5px 10px;
+	border: 2px solid white;
+	border-radius: 30px;
+}
+
+/*новостной контент*/
+.newsbody{
+	background-image: linear-gradient(to bottom right, rgb(204, 204, 204), rgba(192, 196, 196, 0.93), rgba(181, 188, 188, 0.86), rgba(169, 179, 180, 0.79), rgba(157, 171, 172, 0.72), rgba(146, 163, 164, 0.65), rgba(134, 155, 157, 0.58), rgba(123, 147, 149, 0.51), rgba(111, 139, 141, 0.44), rgba(99, 130, 133, 0.37), rgba(88, 122, 125, 0.3), rgba(76, 114, 117, 0.23));
+	margin: 10px 2px 10px 2px;
+	border-radius: 20px 20px 20px 20px;
+	padding: 20px 10px 10px 10px;
+	font-family:'PT Sans', sans-serif;
+	font-size: 20px;
+
+}
+/*-----------------------------------------------------*/
+
+/*контент новостей 1*/
+/*------------------------*/
+.newsitem_1{
+	
+	border-bottom: 5px solid rgba(207 , 207 ,207 ,1);
+}
+.newsitem_1_title{
+background-image: linear-gradient(to right, rgba(255, 144, 54, 0.96), rgba(252, 143, 54, 0.93), rgba(248, 141, 54, 0.9), rgba(245, 140, 54, 0.87), rgba(242, 139, 54, 0.84), rgba(239, 137, 54, 0.81), rgba(235, 136, 55, 0.77), rgba(232, 134, 55, 0.74), rgba(229, 133, 55, 0.71), rgba(226, 132, 55, 0.68), rgba(222, 130, 55, 0.65), rgba(219, 129, 55, 0.62));
+margin: 20px;
+ border-radius: 20px;
+ font-family: 'Exo 2', sans-serif;
+ padding: 10px 20px;
+ width: 500px;
+ text-align: center;
+
+}
+
+.newsitem_1_content{
+	background-image: linear-gradient(to left, rgba(207, 207, 207, 0.96), rgba(208, 209, 209, 0.94), rgba(210, 210, 210, 0.93), rgba(211, 212, 212, 0.91), rgba(212, 213, 213, 0.89), rgba(213, 215, 215, 0.87), rgba(215, 216, 216, 0.86), rgba(216, 218, 218, 0.84), rgba(217, 219, 219, 0.82), rgba(218, 221, 221, 0.8), rgba(220, 222, 222, 0.79), rgba(221, 224, 224, 0.77));
+display: -webkit-flex;
+display: -moz-flex;
+display: -ms-flex;
+display: -o-flex;
+display: flex;
+margin: 0px 30px 30px 30px;
+border-radius: 10px;
+justify-content: center;
+align-items: center;
+
+}
+.newsitem_1_text{ 
+width: 50%;
+margin: 10px 10px 10px 10px;
+float: 100%;
+line-height: 30px;
+color: black
+
+ }
+.newsitem_1_imageblock{
+	width: 50%;
+	text-align: center;
+	margin: 10px;
+	background-image: linear-gradient(to bottom right, rgba(54, 151, 255, 0.96), rgba(69, 156, 250, 0.95), rgba(85, 162, 245, 0.95), rgba(100, 167, 240, 0.94), rgba(116, 173, 235, 0.93), rgba(131, 178, 230, 0.92), rgba(147, 184, 226, 0.92), rgba(162, 189, 221, 0.91), rgba(178, 195, 216, 0.9), rgba(193, 200, 211, 0.89), rgba(209, 206, 206, 0.89), rgba(224, 211, 201, 0.88));
+	padding: 20px;
+	border-radius: 10px
+}
+.newsitem_1_image{
+	width: 200px;
+}
+
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+/*контент новостей 2*/
+/*-----------------------*/
+.newsitem_2{
+	border-bottom: 5px solid rgba(207 , 207 ,207 ,1);
+}
+.newsitem_2_title{
+	background-image: linear-gradient(to right, rgba(255, 144, 54, 0.96), rgba(252, 143, 54, 0.93), rgba(248, 141, 54, 0.9), rgba(245, 140, 54, 0.87), rgba(242, 139, 54, 0.84), rgba(239, 137, 54, 0.81), rgba(235, 136, 55, 0.77), rgba(232, 134, 55, 0.74), rgba(229, 133, 55, 0.71), rgba(226, 132, 55, 0.68), rgba(222, 130, 55, 0.65), rgba(219, 129, 55, 0.62));
+margin: 20px;
+ border-radius: 20px;
+ font-family: 'Exo 2', sans-serif;
+ padding: 10px 20px;
+ width: 500px;
+ text-align: center;
+}
+.newsitem_2_content{
+		background-image: linear-gradient(to left, rgba(207, 207, 207, 0.96), rgba(208, 209, 209, 0.94), rgba(210, 210, 210, 0.93), rgba(211, 212, 212, 0.91), rgba(212, 213, 213, 0.89), rgba(213, 215, 215, 0.87), rgba(215, 216, 216, 0.86), rgba(216, 218, 218, 0.84), rgba(217, 219, 219, 0.82), rgba(218, 221, 221, 0.8), rgba(220, 222, 222, 0.79), rgba(221, 224, 224, 0.77));
+display: -webkit-flex;
+display: -moz-flex;
+display: -ms-flex;
+display: -o-flex;
+display: flex;
+margin: 0px 30px 30px 30px;
+border-radius: 10px;
+justify-content: center;
+align-items: baseline;
+
+
+}
+.newsitem_2_text{
+		
+display: -webkit-flex;
+display: -moz-flex;
+display: -ms-flex;
+display: -o-flex;
+display: flex;
+margin: 20px 30px 30px 30px;
+border-radius: 10px;
+justify-content: center;
+align-items: center;
+padding: 20px;
+word-spacing: 10px ;
+float: center;
+word-wrap: none;
+color:#000
+
+}
+.newsitem_2_imageblock{
+	width: 50%;
+	text-align: center;
+	margin: 5px;
+	padding: 0px 20px;
+	border-radius: 10px;
+}
+.newsitem_2_image{
+	border-radius: 20px;
+	width: 400px;
+	
+}
+
+
+
+
+/*контент новостей 3*/
+/*------------------------*/
+.newsitem_3{
+	border-bottom: 5px solid rgba(207 , 207 ,207 ,1);
+}
+.newsitem_3_title{
+	background-image: linear-gradient(to right, rgba(255, 144, 54, 0.96), rgba(252, 143, 54, 0.93), rgba(248, 141, 54, 0.9), rgba(245, 140, 54, 0.87), rgba(242, 139, 54, 0.84), rgba(239, 137, 54, 0.81), rgba(235, 136, 55, 0.77), rgba(232, 134, 55, 0.74), rgba(229, 133, 55, 0.71), rgba(226, 132, 55, 0.68), rgba(222, 130, 55, 0.65), rgba(219, 129, 55, 0.62));
+margin: 20px;
+ border-radius: 20px;
+ font-family: 'Exo 2', sans-serif;
+ padding: 10px 20px;
+ width: 500px;
+ text-align: center;
+}
+.newsitem_3_content{
+	background-image: linear-gradient(to left, rgba(207, 207, 207, 0.96), rgba(208, 209, 209, 0.94), rgba(210, 210, 210, 0.93), rgba(211, 212, 212, 0.91), rgba(212, 213, 213, 0.89), rgba(213, 215, 215, 0.87), rgba(215, 216, 216, 0.86), rgba(216, 218, 218, 0.84), rgba(217, 219, 219, 0.82), rgba(218, 221, 221, 0.8), rgba(220, 222, 222, 0.79), rgba(221, 224, 224, 0.77));
+display: -webkit-flex;
+display: -moz-flex;
+display: -ms-flex;
+display: -o-flex;
+display: flex;
+margin: 0px 10px 10px 30px;
+border-radius: 10px;
+justify-content: center;
+
+}
+.newsitem_3_text {
+	display: block;
+padding: 10px;
+word-spacing: 5px;
+text-align: left;
+color:#000;
+
+}
+.newsitem_3_mapblock{
+	margin: 20px;
+	border-radius: 20px;
+	padding: 0px;
+	border: 10px solid #fc8c41;
+
+	position: relative;
+}
+
+
+
+
+
+/*контент новостей 4*/
+/*--------------------*/
+.newsitem_4{}
+.newsitem_4_title{}
+.newsitem_4_content{}
+.newsitem_4_text{}
+.newsitem_4_imageblock{}
+.newsitem_4_image{}
+
+
+
+
+
+/*контент новостей 5*/
+/*------------------*/
+.newsitem_5{}
+.newsitem_5_title{}
+.newsitem_5_content{}
+.newsitem_5_text{}
+.newsitem_5_imageblock{}
+.newsitem_5_image{}
+
+
+
+
+
+/*контент новостей 6*/
+/*-------------------*/
+.newsitem_6{}
+.newsitem_6_title{}
+.newsitem_6_content{}
+.newsitem_6_text{}
+.newsitem_6_imageblock{}
+.newsitem_6_image{}
